@@ -1,4 +1,4 @@
-# bb - beat builder
+# mt - midi triggers
 
 # Running
 ```sh

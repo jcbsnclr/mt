@@ -23,7 +23,7 @@ DBG?=gdb
 DBGVARS?=LSAN_OPTIONS=verbosity=0:log_threads=1 ASAN_OPTIONS=detect_leaks=0
 DBGCMD=$(DBGVARS) $(DBG)
 
-BINNAME=arbiter
+BINNAME=mt
 BIN=build/$(BINNAME)
 
 # quick hack; allows us to depend on the value of the TEST variable (will rebuild if changed) 
