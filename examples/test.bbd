@@ -1,0 +1,4 @@
+# comment
+0:60 sample "snare.wav"
+0:61 sample "kick.wav"
+1:* sample "synth.wav" 
